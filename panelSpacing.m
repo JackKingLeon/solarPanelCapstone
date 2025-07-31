@@ -17,7 +17,5 @@ maxAngleAttackShort = deg2rad(40); % radians, based on CAD
 heightLong = sin(maxAngleAttackLong)*panelLength; % inches
 heightShort = sin(maxAngleAttackShort)*panelWidth; % inches
 % find distance between rows
-distanceLong = ((heightLong / tan(solarElevationAngle))*cos(azimuthCorrectionAngle)) /
-correctionFactor % inches
-distanceShort = (heightShort / tan(solarElevationAngle))*cos(azimuthCorrectionAngle) %
-inches
+distanceLong = ((heightLong / tan(solarElevationAngle))*cos(azimuthCorrectionAngle)) / correctionFactor % inches
+distanceShort = (heightShort / tan(solarElevationAngle))*cos(azimuthCorrectionAngle) % inches
